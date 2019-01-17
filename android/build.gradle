@@ -15,8 +15,8 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "25.0.0"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
         minSdkVersion 16
@@ -34,7 +34,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.facebook.fresco:fresco:0.11.0'
-    compile 'me.relex:photodraweeview:1.0.0'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.facebook.fresco:fresco:0.11.0'
+    implementation 'me.relex:photodraweeview:1.0.0'
 }
